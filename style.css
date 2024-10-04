@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+.all{
+    display: flex;
+    background-color:lightslategrey;
+    justify-content: space-between;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: space-between;
+}
+.nav-item{
+    background-color: sienna;
+    color:azure;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+.nav-item-container{
+    display: flex;
+    column-gap: 5px;
+    display: flex;
+}
+.logo{
+    font-size: 50px;
+    margin-left: 50px;
+}
